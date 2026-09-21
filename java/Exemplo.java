@@ -1,5 +1,4 @@
-// Exemplo.java
-// Usando os tipos primitivos de Java
+
 
 public class Exemplo {
     public static void main(String[] args) {
@@ -15,14 +14,14 @@ public class Exemplo {
         byte idade = 17;
         short ano = 2026;
 
-        // ---- SOMA DE NUMEROS ----
+     
         int soma = numero1 + numero2;
         System.out.println("Soma: " + soma);
 
         double total = preco * 3;
         System.out.println("Total de 3 produtos: " + total);
 
-        // ---- MOSTRANDO OS OUTROS TIPOS ----
+     
         System.out.println("Nota: " + nota);
         System.out.println("Inicial: " + inicial);
         System.out.println("Aprovado? " + aprovado);
@@ -30,7 +29,7 @@ public class Exemplo {
         System.out.println("Idade: " + idade);
         System.out.println("Ano: " + ano);
 
-        // ---- ARRAY (todos do mesmo tipo) ----
+     
         int[] numeros = {1, 3, 5, 7, 9, 10};
 
         int somaArray = 0;
@@ -40,7 +39,7 @@ public class Exemplo {
         System.out.println("Soma do array: " + somaArray);
         System.out.println("Media do array: " + (somaArray / numeros.length));
 
-        // ---- ARRAY DENTRO DE ARRAY (matriz) ----
+       
         int[][] matriz = {
             {1, 2, 3},
             {4, 5, 6},
